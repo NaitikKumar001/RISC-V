@@ -12,15 +12,17 @@ and how its instructions are used in programs.
 RISC-V is an open-standard Instruction Set Architecture(ISA).It defines the instructions and rules that a processor can understand.RISC-V is not a processor 
 or a programming language. It is an Instruction Set Architecture.It is a Set of rules that tells a CPU which instructions it can understand and how 
 those instructions work.
-           RISC-V is not processor itself
+           <pre>
+       RISC-V is not processor itself
                  RISC-V
-                   |
-      INSTRUCTION SET ARCHITECTURE 
-                   |
-      DEFINES INSTRUCTIONS AND RULES 
-                   |
- DIFFERENT COMPANIES CAN BUILD CPUs USING
-              THOSE RULES
+                    |
+        INSTRUCTION SET ARCHITECTURE
+                    |
+          DEFINES INSTRUCTIONS AND RULES
+                    |
+      DIFFERENT COMPANIES CAN BUILD CPUs USING
+                  THOSE RULES
+</pre>
 
 # 3. EASY UNDERSTANDING.
 
@@ -62,15 +64,19 @@ RISC-V works by defining a set of instructions that a processor can understand a
 clock speed indicates how many instructions cycles that processor can attempt per second.
 NOTE-> Higher clock speed can't always means faster performance. 
 
-FREQUENCY |CYCLEperSECOND|TYPICAL USAGE
-1MHZ      | 1 million    | early(1970s)                               microcontroller 
-100MHz    | 100 million  | basic embedded.                            system
-1GHz      | 1 billion    |smartphone,tablet
-3GHz      | 3 billion    |desktop computer 
+| Frequency | Cycles Per Second | Typical Usage |
+|-----------|-------------------|---------------|
+| 1 MHz     | 1 million         | Early (1970s) |
+| 100 MHz   | 100 million       | Basic embedded systems |
+| 1 GHz     | 1 billion         | Smartphones, tablets |
+| 3 GHz     | 3 billion         | Desktop computers |
+ 
+| Processor Type | Instructions per Cycle |
+|----------------|------------------------|
+| Simple Processor | 1 instruction per cycle |
+| Superscalar Processor | 2–4 instructions per cycle |
+| High-Performance Processor | 4–8 instructions per cycle |
 
-SIMPLE PROCESSOR          :1 Instruction.                                per cycle
-SUPERSCALAR PROCESSOR     :2-4 Instruction                               per cycle
-HIGH PERFORMANCE PROCESSOR:4-8 Instruction                               per cycle
 
 # 9. What is ISA?
 
