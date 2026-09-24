@@ -95,4 +95,12 @@ For example:
 ADD x5, x6, x7
 so ISA tells to processor what is add operation how to perform it what are x5,x6,x7 and how to encode them in binary.
 
+# 10. Comparing different ISA. 
+
+| ISA   | Chips?          | Architecture License? | Commercial Core IP? | Add Own Instructions? | Open-Source Core IP? |
+|-------|------------------|------------------------|---------------------|-----------------------|----------------------|
+| Intel x86   | Yes, three vendors | No                   | No                  | No                    | No                   |
+| ARM   | Yes, many vendors  | Yes, expensive       | Yes, one vendor     | No (Mostly)           | No                   |
+| RISC-V| Yes, many vendors  | Yes, free             | Yes, many vendors   | Yes                   | Yes, many available   |
+
           
